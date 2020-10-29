@@ -1,0 +1,23 @@
+{
+  "name": "how-to-graphql-node",
+  "version": "1.0.0",
+  "description": "Tutorial \"How to GraphQL\" com Node pela documentação de \"https://www.howtographql.com/\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xKugel/how-to-graphql-node.git"
+  },
+  "keywords": [
+    "graphql",
+    "tutorial"
+  ],
+  "author": "Gabriel Kugel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xKugel/how-to-graphql-node/issues"
+  },
+  "homepage": "https://github.com/xKugel/how-to-graphql-node#readme"
+}
