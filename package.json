@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/xKugel/how-to-graphql-node/issues"
   },
-  "homepage": "https://github.com/xKugel/how-to-graphql-node#readme"
+  "homepage": "https://github.com/xKugel/how-to-graphql-node#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }
