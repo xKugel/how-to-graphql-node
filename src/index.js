@@ -34,6 +34,11 @@ const resolvers = {
         return acc
       }, [])
       return updatedLink
+    },
+    deleteLink: (parent, args) => {
+      let removedLink = links.filter(e => args.query.id === e.id);
+      links = links.filter(e => args.query.id !== e.id)
+      return removedLink.length > 0 ? removedLink[0] : {}
     }
   },
 
